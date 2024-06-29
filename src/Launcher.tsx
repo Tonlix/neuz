@@ -193,7 +193,7 @@ const Launcher = ({ className }: Props) => {
                        <h3>This action cant be undone</h3>
                     }
                     onYes={() => {
-                        invoke('remove_profile_', {profileId: profileId})
+                        invoke('remove_profile', {profileId: profileId})
                         setList((oldValue) => oldValue.filter((filtred) => filtred.replaceAll("profile_","") !== profileId))
                         setPage(1)
                         setPID("")
