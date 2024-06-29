@@ -38,8 +38,8 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
-                  tagName: Neuz-v__VERSION__ # this will be replaced by the version in your package.json
-                  releaseName: "Neuz v__VERSION__"
+                  tagName: Neuz-v1.6.4 # this will be replaced by the version in your package.json
+                  releaseName: "Neuz-v1.6.4"
                   releaseBody: "Join us on Discord and leave a ⭐ on GitHub if you like the project!"
                   releaseDraft: true
                   prerelease: false
